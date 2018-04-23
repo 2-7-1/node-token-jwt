@@ -1,0 +1,26 @@
+{
+  "name": "node-token-jwt",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Demonstration of JWT authentication with Express",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
