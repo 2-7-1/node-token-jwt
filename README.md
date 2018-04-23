@@ -3,6 +3,7 @@
 A simple API using express demonstrating:
 
 -- JSON Web Tokens (JWT) for validation and authentication.  (https://jwt.io/)
+
 -- A JWT validation and user "authentication" gateway function.  
     Request to the protected resorce /api/get-message must have JWT token in header ("x-access-token"), query string (?token=), or JSON body ({"token": "..."})
 
