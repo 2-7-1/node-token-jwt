@@ -28,4 +28,6 @@ This API has two endpoints:
 -- GET /api/get-message
     This enpoint must include the obtianed JWT token in header ("x-access-token"), query string (?token=), or JSON body ({"token": "..."}).
 
-    express.Router() is used to create a "gateway" function where the JWT signature is validated to ensure that it came from the server.  Then the payload in the JWT is extracted and the userName and password are authenticated.  Only then does this function proceed to this endpoint.
+    express.Router() is used to create a "gateway" function where the JWT signature is validated to ensure
+    that it came from the server.  Then the payload in the JWT is extracted and the userName and password
+    are authenticated.  Only then does this function proceed to this endpoint.
