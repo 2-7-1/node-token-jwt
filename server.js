@@ -105,4 +105,4 @@ app.use('/api', apiRoutes);
 
 // Start Express Server
 app.listen(port);
-console.log('Startin server http://localhost:' + port);
+console.log('Starting server http://localhost:' + port);
